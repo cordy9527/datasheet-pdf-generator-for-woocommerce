@@ -10,6 +10,7 @@ node_modules
 # Build and distribution
 dist/
 build.sh
+deploy-to-wporg.sh
 
 # Documentation (dev only)
 README.md
@@ -20,6 +21,11 @@ WORDPRESS_ORG_FIXES_APPLIED.md
 WORDPRESS_ORG_SUBMISSION.md
 WORDPRESS_ORG_COMPLIANCE_FIXES.md
 READY_FOR_RESUBMISSION.md
+BUILD_COMPLETE.md
+GITHUB_ACTIONS_SETUP.md
+GITHUB_TO_SVN_WORKFLOW.md
+SECURITY_AND_PRIVACY.md
+.wordpress-org/
 
 # Composer dev files
 composer.json
