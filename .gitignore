@@ -1,0 +1,30 @@
+# Build artifacts
+dist/
+*.zip
+
+# macOS
+.DS_Store
+
+# WordPress
+wp-config.php
+.htaccess
+
+# Logs
+*.log
+
+# Temporary files
+/tmp/
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (if you add any)
+node_modules/
+
+# SVN checkout (from deployment script)
+/tmp/*-svn/

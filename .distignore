@@ -1,0 +1,38 @@
+# Development files
+.git
+.gitignore
+.distignore
+.github
+.build-tmp
+node_modules
+.DS_Store
+
+# Build and distribution
+dist/
+build.sh
+
+# Documentation (dev only)
+README.md
+READY_TO_SUBMIT.md
+SUBMISSION_READY.md
+VISUAL_ASSETS_GUIDE.md
+WORDPRESS_ORG_FIXES_APPLIED.md
+WORDPRESS_ORG_SUBMISSION.md
+WORDPRESS_ORG_COMPLIANCE_FIXES.md
+READY_FOR_RESUBMISSION.md
+
+# Composer dev files
+composer.json
+composer.lock
+vendor/composer/*.php
+
+# PHP dev files
+phpcs.xml
+phpunit.xml
+tests/
+
+# IDE files
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace

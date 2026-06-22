@@ -1,0 +1,19 @@
+{
+  "name": "agentcordy/datasheet-pdf-generator",
+  "description": "Automatically generates a PDF for each WooCommerce product.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Agent Cordy",
+      "homepage": "https://agentcordy.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "mpdf/mpdf": "^8.2"
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
